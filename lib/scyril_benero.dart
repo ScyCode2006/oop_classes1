@@ -1,11 +1,14 @@
+class GoodPerson { //Member1
 
-class ClassName1 {
+ //Properties
   String name;
-  int year;
+  int Age;
 
-  ClassName1(this.name, this.year);
-
+ //Constractor
+  GoodPerson(this.name, this.Age);
+ 
+ //Method or Behavior
   void describe() {
-    print('Name: $name, Year: $year');
+    print("Name: $name, My Age: $Age");
   }
 }
