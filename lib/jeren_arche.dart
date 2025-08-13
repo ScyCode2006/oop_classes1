@@ -1,10 +1,15 @@
-class ClassName3 {
+class Student { //Member3
+
+//Properties
   String name;
-  int year;
+  int ID;
+  
 
-  ClassName3(this.name, this.year);
-
+  //Constractor
+  Student(this.name, this.ID);
+  
+  //Method or  behavior
   void describe() {
-    print('Name: $name, Year: $year');
+    print("Name: $name , Student ID: $ID");
   }
 }
